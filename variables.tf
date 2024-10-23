@@ -26,3 +26,8 @@ variable "index_document" {
   description = "Name of the index document"
   default     = "index.html"
 }
+
+variable "subscription_id" {
+  type = string
+  sensitive = true
+}
